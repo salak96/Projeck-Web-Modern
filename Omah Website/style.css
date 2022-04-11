@@ -1,0 +1,9 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #a2d9ff;
+  background-image: url("/img/img1.jpg");
+}
+
+section {
+  padding-top: 5rem;
+}
