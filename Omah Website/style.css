@@ -1,21 +1,21 @@
-/* .header {
-  color: white;
-  background-color: #006699;
-  padding: 4px;
-  font-size: 19px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #006699;
+.header {
+  color: red;
+  background-color:blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .header h2 {  
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   color:red;
   background-color: green;
-  text-align: right;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+
 }
 body {
-  background-color:yellow;
-} */
+  background-color:#E5E5E5;
+  font-family: 'Open Sans', sans-serif;
+}
