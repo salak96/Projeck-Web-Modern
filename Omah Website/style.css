@@ -19,3 +19,21 @@ body {
   background-color:#E5E5E5;
   font-family: 'Open Sans', sans-serif;
 }
+.footerbawah{
+  background-color: rgba(47, 54, 64, 1);
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+.footerbawah h1 {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: left;
+  padding:10px;
+  margin: 0px;
+}
+
+  
