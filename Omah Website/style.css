@@ -1,24 +1,4 @@
-.header {
-  color: red;
-  background-color:blue;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
 
-.header h2 {  
-  color:red;
-  background-color: green;
-  text-align: left;
-  font-size: 15px;
-  padding: 5px;
-  font-family: "Times New Roman", Times, serif;
-
-}
-body {
-  background-color:#E5E5E5;
-  font-family: 'Open Sans', sans-serif;
-}
 .footerbawah{
   background-color: rgba(47, 54, 64, 1);
   color: black;
@@ -27,7 +7,7 @@ body {
   text-align: center;
   padding: 10px;
 }
-.footerbawah h1 {
+.footer-bawah h1 {
   color: white;
   text-decoration: none;
   font-size: 25px;
@@ -35,5 +15,8 @@ body {
   padding:10px;
   margin: 0px;
 }
-
+.footer-bawah i { 
+    font-size: 35px;
+    padding: 0px 2px;
+}
   
