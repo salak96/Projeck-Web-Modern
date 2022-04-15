@@ -1,22 +1,45 @@
 
-.footerbawah{
-  background-color: rgba(47, 54, 64, 1);
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
-}
-.footer-bawah h1 {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
+.container{
+  Width  : 1366px;
+  Height :104px;
+  display: flex;
+  margin : 30px auto;
+  background-color: #2F3640;
+  color: #E5E5E5;
+  font-family: 'Roboto';
   text-align: left;
-  padding:10px;
-  margin: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-.footer-bawah i { 
-    font-size: 35px;
-    padding: 0px 2px;
+
+.container div {
+  width: 100%;
+  display: flex;
+  float: center;
+  border-sizing: border-box;
+  margin :20px;
+  font-size: 20px;
+}
+
+.container items1 {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  float: center;
+  border-sizing: border-box;
+  margin :20px;
+}
+
+.messageelement {
+  background-color: #EEEDDE;
+  display: flex;
+  color: 2F3640;
+  font-family:'Poppins';
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #2F3640;
+
 }
   
