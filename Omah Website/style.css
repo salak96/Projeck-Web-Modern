@@ -1,21 +1,113 @@
-.header {
-  color: red;
-  background-color:blue;
+header {
+  color: #203239;
+  background-color: #E5E5E5;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  height: 90px;
+  border-bottom: 1px solid black;
 }
 
-.header h2 {  
-  color:red;
-  background-color: green;
-  text-align: left;
+.top{
+  padding: 25px 75px;
+  width: 100%;
+}
+
+.header-left i {
+  font-size: 35px;
+  padding: 0px 2px;
+}
+
+.header-left{
+  float: left;
+  font-size: 20px;
+}
+
+.header-right{
+  float:right;
+  margin-right: 100px;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 50px;
+  font-weight: normal;
+  color: #203239;
+  display: block;
+  float: left;
   font-size: 15px;
-  padding: 5px;
-  font-family: "Times New Roman", Times, serif;
-
+  transition: all 0.5s;
 }
+
+.top-element{
+  color: #203239;
+  height: 500px;
+  background-color: #E5E5E5;
+  padding: 50px 50px;
+}
+
+.top-element h1{
+  font-size: 50px;
+  margin: 0px 0px 20px 0px;
+}
+
+.top-element p{
+  color: rgb(136 144 150);
+}
+
+.top-element .cari {
+  background: white;
+  width: 585px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 14px 15px 28px 20px;
+  margin-top: 55px;
+}
+
+.top-element .btn-cari {
+  background: #203239;
+  width: 155px;
+  height: 15px;
+  float: right;
+  border-radius: 8px;
+  position: sticky;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  box-shadow: 0px 3px 10px 0rem rgb(32 50 57 / 72%);
+}
+
+.top-element span {
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.top-element .btn-cari a {
+  color: white;
+}
+
+.top-element .ket-cari {
+  color: rgb(136 144 150);
+  position: absolute;
+  padding: 18px 5px;
+}
+
+.gambar {
+  background: no-repeat -380px/215% url("https://padiumkm.id/public/products/40056/466141/rumah-sumarecon.1637833613.jpg");
+  width: 420px;
+  height: 495px;
+  float: right;
+  border: 1px solid black;
+}
+.top-element h1 p {
+  font-size: 50px;
+  margin: 15px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
-  background-color:#E5E5E5;
-  font-family: 'Open Sans', sans-serif;
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
 }
