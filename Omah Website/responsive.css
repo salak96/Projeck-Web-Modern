@@ -1,0 +1,10 @@
+//create resonsive from style.css all page
+function responsive() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var x = document.getElementById("responsive");
+    x.style.width = w + "px";
+    x.style.height = h + "px";
+}
+window.onresize = responsive;
+responsive();
