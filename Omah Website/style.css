@@ -185,3 +185,24 @@ img {
 
 }
 
+.footer {
+  background-color: #2F3640;
+  display: flex;
+  color: #EEEDDE;
+  font-family:'Roboto';
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px 10px ;
+  padding-left : 50px;
+  border: 1px solid #2F3640;
+  width  :1304px;
+}
+
+.sosmed {
+  margin-left : 700px;
+  margin-top : 0px;
+  margin-bottom : 10px;
+  font-family: "Poppins";
+  font-size: 20px;
+ font-style: normal;
+}
