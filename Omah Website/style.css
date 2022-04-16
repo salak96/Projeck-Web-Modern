@@ -9,10 +9,13 @@ header {
 }
 
 .top{
-  padding: 25px 75px;
-  width: 100%;
+  padding: 25px 125px;
 }
 
+.space {
+  margin-bottom: 25px;
+  height: 10px;
+}
 .header-left i {
   font-size: 35px;
   padding: 0px 2px;
@@ -20,65 +23,83 @@ header {
 
 .header-left{
   float: left;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header-right{
   float:right;
-  margin-right: 100px;
 }
 
 .header-right a {
   line-height: 50px;
-  padding: 0 50px;
-  font-weight: normal;
-  color: #203239;
-  display: block;
-  float: left;
-  font-size: 15px;
-  transition: all 0.5s;
+    font-weight: normal;
+    color: #203239;
+    display: block;
+    float: left;
+    font-size: 18px;
+    transition: all 0.5s;
+    margin-left: 85px;
 }
 
 .top-element{
   color: #203239;
-  height: 500px;
+  height: 710px;
   background-color: #E5E5E5;
-  padding: 50px 50px;
+  padding: 75px 120px;
 }
 
 .top-element h1{
-  font-size: 50px;
+  font-size: 75px;
   margin: 0px 0px 20px 0px;
 }
 
 .top-element p{
   color: rgb(136 144 150);
+  font-size: 20px;
 }
 
-.top-element .cari {
+.top-element input {
   background: white;
-  width: 585px;
-  height: 40px;
-  border-radius: 10px;
-  padding: 14px 15px 28px 20px;
-  margin-top: 55px;
+  width: 770px;
+  height: 45px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: transparent;
 }
 
 .top-element .btn-cari {
+  color: white;
   background: #203239;
   width: 155px;
   height: 15px;
   float: right;
   border-radius: 8px;
-  position: sticky;
+  position: absolute;
+  margin-top: 63px;
+  margin-left: -170px;
   padding: 20px 0px 20px 0px;
   text-align: center;
   box-shadow: 0px 3px 10px 0rem rgb(32 50 57 / 72%);
 }
 
-.top-element span {
-  font-size: 10px;
+.top-element .residen span {
+  font-size: 70px;
   font-weight: bolder;
+  color: #e84118;
+}
+
+.top-element .proper span {
+  font-size: 70px;
+  font-weight: bolder;
+  color: #e84118;
+}
+
+.top-element .tahun span {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #e84118;
 }
 
 .top-element .btn-cari a {
@@ -92,9 +113,9 @@ header {
 }
 
 .gambar {
-  background: no-repeat -380px/215% url("https://padiumkm.id/public/products/40056/466141/rumah-sumarecon.1637833613.jpg");
-  width: 420px;
-  height: 495px;
+  background: no-repeat -565px/240% url("https://padiumkm.id/public/products/40056/466141/rumah-sumarecon.1637833613.jpg");
+  width: 530px;
+  height: 705px;
   float: right;
   border: 1px solid black;
 }
@@ -110,4 +131,25 @@ a {
 body {
   background-color:white;
   font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 75px 130px 0px 0px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: -40px;
+}
+
+.top-element p.penjelasan{
+  width: 9%;
+  display: inline-table;
+  font-size: 16px;
+  color: #b3aeb5;
+  margin-right: 9%;
+  margin-top: 0%;
 }
