@@ -1,0 +1,45 @@
+@media (max-width:1000px) {
+    .top-element {
+        height: fit-content;
+    }
+    .gambar {
+        margin-left: 13.5%;
+        float: none;
+    }
+
+    .top-element h1 {
+    margin: 25px 0px 0px 0px;
+    }
+
+    .top-element input {
+        width: 655px;
+    }
+  }
+
+  @media (max-width:1820px) {
+    .top-element h1 {
+        width: 1015px;
+    }
+    li {
+        padding: 35px 120px 0px 0px;
+    }
+    .top-element .btn-cari {
+        margin-top: 50px;
+    }
+    .top-element input {
+    width: 700px;
+    margin-top: 35px;
+    }
+  }
+
+  @media (max-width:1673px) {
+      .top-element input {
+        width: 635px;
+      }
+      li {
+        padding: 35px 65px 0px 0px;
+      }
+      .top-element p.penjelasan {
+        padding: 0px 75px 0px 0px;
+      }
+  }

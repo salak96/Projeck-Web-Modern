@@ -43,9 +43,9 @@ header {
 
 .top-element{
   color: #203239;
-  height: 710px;
   background-color: #E5E5E5;
   padding: 75px 120px;
+  transition: all 0.5s;
 }
 
 .top-element h1{
@@ -53,9 +53,12 @@ header {
   margin: 0px 0px 20px 0px;
 }
 
-.top-element p{
+.top-element p.ket {
   color: rgb(136 144 150);
   font-size: 20px;
+  width: 45%;
+  line-height: 170%;
+  margin: 0%;
 }
 
 .top-element input {
@@ -115,7 +118,7 @@ header {
 .gambar {
   background: no-repeat -565px/240% url("https://padiumkm.id/public/products/40056/466141/rumah-sumarecon.1637833613.jpg");
   width: 530px;
-  height: 705px;
+  height: 670px;
   float: right;
   border: 1px solid black;
 }
@@ -135,10 +138,11 @@ body {
 
 li {
   list-style: none;
-  float: left;
-  padding: 75px 130px 0px 0px;
-  font-size: 70px;
-  font-weight: bold;
+    float: left;
+    padding: 75px 120px 0px 0px;
+    width: 175px;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 ul {
@@ -146,10 +150,14 @@ ul {
 }
 
 .top-element p.penjelasan{
-  width: 9%;
-  display: inline-table;
+  width: 165px;
   font-size: 16px;
   color: #b3aeb5;
-  margin-right: 9%;
   margin-top: 0%;
+  padding: 0px 130px 0px 0px;
+  float: left;
+}
+
+.clear {
+  clear: left;
 }
