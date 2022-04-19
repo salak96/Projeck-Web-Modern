@@ -1,45 +1,65 @@
-@media (max-width:1000px) {
-    .top-element {
-        height: fit-content;
-    }
-    .gambar {
-        margin-left: 13.5%;
-        float: none;
-    }
+@media (max-width:1820px) {
+  .top-element h1 {
+      width: 700px;
+  }
+  li {
+      padding: 30px 88px 0px 0px;
+  }
+  .top-element .btn-cari {
+      margin-top: 50px;
+  }
+  .top-element input {
+  width: 635px;
+  margin-top: 35px;
+  }
+  .top-element p.penjelasan {
+    padding: 0px 95px 0px 0px;
+  }
+  .top-element p.penjelasann {
+    padding: 0px 95px 0px 0px;
+  }
+}
 
-    .top-element h1 {
-    margin: 25px 0px 0px 0px;
+  @media (max-width:1576px) {
+    .top-element li.proper {
+      padding-right: 0px ;
     }
+    .top-element p.penjelasann {
+      padding-right: 0px ;
+    }
+  }
 
+  @media (max-width:1500px) {
     .top-element input {
-        width: 655px;
-    }
+      width: 635px;
+      margin-left: 19%;
   }
-
-  @media (max-width:1820px) {
-    .top-element h1 {
-        width: 1015px;
-    }
-    li {
-        padding: 35px 120px 0px 0px;
-    }
-    .top-element .btn-cari {
-        margin-top: 50px;
-    }
-    .top-element input {
-    width: 700px;
-    margin-top: 35px;
-    }
+  
+  .top-element .btn-cari {
+    margin-top: 48px;
+    margin-left: -11.75%;
   }
-
-  @media (max-width:1673px) {
-      .top-element input {
-        width: 635px;
-      }
-      li {
-        padding: 35px 65px 0px 0px;
-      }
-      .top-element p.penjelasan {
-        padding: 0px 75px 0px 0px;
-      }
+  
+  .top-element h1 {
+    width: 525px;
   }
+  
+  .top-element p.ket {
+    width: 525px;
+  }
+  
+  li {
+    padding: 30px 10% 0px 9%;
+  }
+  
+  .top-element p.penjelasan {
+    padding: 0px 10.55% 0px 9%;
+  }
+  
+  .top-element p.penjelasann {
+    padding: 0px 10.55% 0px 9.5%;
+  }
+  .top-element p.penjelasann {
+    padding-right: 0px ;
+  }
+    }
