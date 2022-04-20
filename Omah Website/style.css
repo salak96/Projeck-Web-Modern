@@ -1,21 +1,80 @@
-.header {
-  color: red;
-  background-color:blue;
-  font-size: 20px;
+h1 {
+  color:#E84118;
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  left: 100px;
+  top: 68px;
+  font-family:serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2 {
+  color:#203239;
+  position: absolute;
+  width: 428px;
+  height: 54px;
+  left: 100px;
+  top: 100px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.kotak .kanan {
+  border: 2px solid #353B484D;
+  background: #353B484D;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  padding-top: 4.8px;
+  p
+}
+
+.kotak .kiri {
+  border: 2px solid #353B48;
+  background-color:;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  padding-top: 4.8px;
+}
+
+.kotak {
+  display: flex;
   font-weight: bold;
+  top: 20px;
   text-align: center;
+  float: right;
+  padding-right: 350px;
+  padding-top: 135px;
 }
+  
 
-.header h2 {  
-  color:red;
-  background-color: green;
-  text-align: left;
-  font-size: 15px;
-  padding: 5px;
-  font-family: "Times New Roman", Times, serif;
+  
 
-}
+
 body {
-  background-color:#E5E5E5;
-  font-family: 'Open Sans', sans-serif;
+  background:#DCDDE1;
+  position: static;
+  width: 1366px;
+  height: 938px;
+  left: 0px;
+  top: 1465px;
+  
 }
